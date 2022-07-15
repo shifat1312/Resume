@@ -1,0 +1,165 @@
+*{
+    /* box-sizing: border-box; */
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto Slab', serif;
+}
+a{
+    color: teal;
+    font-size: 14px;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.container{
+    max-width: 800px;
+    height: 129vh;
+    background-color: #eee;
+    margin: 0 auto;
+    padding: 30px;
+}
+/* Start Header Section */
+.profile-image{
+    width: 150px;
+    height: 150px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.left-side{
+    display: flex;
+}
+.header-info{
+    /* float: left; */
+    margin-top: 30px;
+    padding: 20px;
+}
+.clear-float{
+    clear: both;
+}
+hr{
+    width: 100%;
+    margin: 20px auto;
+    margin-bottom: none;
+}
+.header-bio{
+    /* float: right; */
+    margin-top: 30px;
+    font-size: 14px;
+}
+.header-bio a{
+    text-decoration: none;
+    color: black;
+}
+.header-bio a:hover{
+    color: teal;
+}
+.header-bio div{
+    margin-top: 3px;
+}
+/* End Header Section */
+
+/* Start Main Section */
+.left-side-section{
+    width: 30%;
+    float: left;
+    
+}
+.right-side-section{
+    float: right;
+    width: 65%;
+}
+
+/* Start Left Side Section */
+.edu{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.subject{
+    font-size: 14px;
+    font-weight: lighter;
+    margin-top: 3px;
+}
+.year-cgpa{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: lighter;
+    margin-top: 3px;
+}
+.lis{
+    margin-top: 8px;
+    font-size: 14px;
+    margin-left: 15px;
+}
+.english{
+    margin-top: 10px;
+}
+.ref-bio{
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+/* End Left Side Section */
+
+/* Start Right Section*/
+
+.about-me{
+    font-size: 14px;
+    line-height: 20px;
+    text-align: justify;
+    margin-top: 10px;
+}
+.p{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.pro{
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.pro li{
+    margin-top: 3px;
+}
+.web-dev{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.exp-description-1{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.web-exp-year{
+    font-size: 14px;
+    margin-top: 3px;
+    line-height: 20px;
+}
+.exp{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.ct-links{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.ct-links > li > p{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* End Right Section */
+
+/* End Main Section */
